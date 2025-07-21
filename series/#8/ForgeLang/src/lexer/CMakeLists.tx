@@ -1,0 +1,10 @@
+add_library(ForgeLexer STATIC
+    Token.cpp
+    Lexer.cpp
+)
+
+target_include_directories(ForgeLexer PUBLIC ${CMAKE_SOURCE_DIR}/src)
+target_link_libraries(ForgeLexer PUBLIC ForgeCore)
+target_compile_features(ForgeLexer PUBLIC cxx_std_23)
+
+set_target_properties(ForgeLexer PROPERTIES FOLDER "ForgeLang/Lexer")
