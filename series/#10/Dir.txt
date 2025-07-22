@@ -1,0 +1,22 @@
+/ForgeLang
+│
+├── /examples               → Simple programs for demonstration
+│   ├── hello_world.lang
+│   ├── factorial.lang
+│   └── file_io.lang
+│
+├── /tests                  → Formal test cases
+│   ├── /passing
+│   │   ├── basic_arithmetic.test
+│   │   ├── recursion.test
+│   │   └── variables.test
+│   ├── /failing
+│   │   ├── missing_semicolon.fail
+│   │   └── type_mismatch.fail
+│   └── /edge_cases
+│       ├── shadowing.test
+│       └── large_loop.test
+│
+├── /benchmarks             → Performance and stress examples
+│   ├── compute_pi.lang
+│   └── fib_iterative.lang
