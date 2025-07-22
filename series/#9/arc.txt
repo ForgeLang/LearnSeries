@@ -1,0 +1,19 @@
+          ┌────────────┐
+          │   Source   │
+          └────┬───────┘
+               ▼
+        ┌──────────────┐
+        │   Lexer      │  → TokenStream
+        └────┬─────────┘
+             ▼
+        ┌──────────────┐
+        │   Parser     │  → AST
+        └────┬─────────┘
+             ▼
+        ┌──────────────┐
+        │ Semantics    │  → Typed AST / Checked AST
+        └────┬─────────┘
+             ▼
+        ┌──────────────┐
+        │   Runtime    │  → Evaluation, Built-ins, Stack Frames
+        └──────────────┘
