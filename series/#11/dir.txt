@@ -1,0 +1,12 @@
+/ForgeLang
+├── CMakeLists.txt
+├── /src
+│   ├── /core           → SourceManager, diagnostics, utilities
+│   ├── /lexer          → Tokenization logic
+│   ├── /parser         → AST construction (Expr, Stmt)
+│   ├── /runtime        → Evaluator, environment, built-ins
+│   ├── /main           → Entry point, CLI handling
+├── /examples
+│   └── hello.lang      → First experimental language program
+├── /tests              → Interpreter and syntax tests (optional)
+├── /build              → CMake out-of-source directory
