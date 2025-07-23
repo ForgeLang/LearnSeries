@@ -1,0 +1,1 @@
+auto filtered = tokens | std::views::filter([](const Token& t){ return t.type != TokenType::Whitespace; });

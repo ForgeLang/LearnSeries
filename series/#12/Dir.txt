@@ -1,0 +1,18 @@
+/MyLangInterpreter
+  /src
+    main.cpp
+    lexer.cpp
+    parser.cpp
+    ast.cpp
+    runtime.cpp
+  /include
+    lexer.hpp
+    parser.hpp
+    ast.hpp
+    runtime.hpp
+  /tests
+    test_lexer.cpp
+    test_parser.cpp
+  /tools
+    codegen.cpp
+  CMakeLists.txt
