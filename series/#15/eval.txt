@@ -1,0 +1,5 @@
+Evaluating: x = 5 + 2;
+Token: Identifier(x)
+Token: Operator(=)
+SubExpression: 5 + 2 = 7
+Set x = 7

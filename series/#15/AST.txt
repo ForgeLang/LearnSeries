@@ -1,0 +1,7 @@
+digraph AST {
+  node0 [label="BinaryExpr +"];
+  node1 [label="Literal 3"];
+  node2 [label="Literal 4"];
+  node0 -> node1;
+  node0 -> node2;
+}
